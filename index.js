@@ -10,7 +10,10 @@ app.get("/", (req, res) => {
   res.send("My app is running :-)");
 });
 
-
 app.get("/profile", (req, res) => {
   res.send("Hi, I'm Amit Verma :-)");
+});
+
+app.get("/about-us", (req, res) => {
+  res.send("This is abput us! :-)");
 });
