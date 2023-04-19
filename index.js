@@ -15,5 +15,9 @@ app.get("/profile", (req, res) => {
 });
 
 app.get("/about-us", (req, res) => {
-  res.send("This is abput us! :-)");
+  res.send("This is about us! :-)");
+});
+
+app.get("/contact-us", (req, res) => {
+  res.send("This is contact us! :-)");
 });
